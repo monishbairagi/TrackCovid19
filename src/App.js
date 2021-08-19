@@ -16,7 +16,7 @@ const App = () => {
     <Router>
       <div className="background">
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/TrackCovid19">
             <Header />
             <div className="card">
               <div className="card-body">

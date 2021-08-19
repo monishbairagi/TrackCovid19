@@ -7,7 +7,7 @@ export const About = () => {
         <div>
             <nav className="navbar navbar-dark bg-dark header">
                 <form className="container-fluid justify-content-start">
-                    <Link to="/" className="btn btn-success" type="button">Back</Link>
+                    <Link to="/TrackCovid19" className="btn btn-success" type="button">Back</Link>
                     <h1 style={{color: 'white', marginTop: '10px', marginLeft: '20px'}}> ____ About ___________ </h1>
                 </form>
             </nav>
