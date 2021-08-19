@@ -1,0 +1,74 @@
+.header{
+    background-color: black;
+    padding: 5px;
+    position: sticky; 
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.main{
+    margin-bottom: 35px;
+}
+
+.card_box{
+    padding: 1px;
+    text-align:center;
+    vertical-align: middle;
+    border: 6px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.fontHead{
+    text-align:center;
+    font-weight: 900;
+    font-size: 35px;
+    margin: 0 0 0 0;
+}
+
+.fontSmall{
+    text-align:center;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 0 0 0;
+}
+
+.card_box:hover{
+    margin: 2px;
+    filter: brightness(.90);
+    transition: .5sec;
+}
+
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+
+  .image{
+    height: 180px;
+    width: 180px;
+    border-radius: 155px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer{
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    height: 35px;
+    width: 100%;
+}
