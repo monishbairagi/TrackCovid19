@@ -1,6 +1,6 @@
 {
   "name": "live-covid-tracker",
-  "homepage": "https://monishbairagi.github.io/TrackCovid19",
+  "homepage": "https://monishbairagi.github.io/TrackCovid19/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
